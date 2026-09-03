@@ -1,148 +1,244 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Samrat Upadhyay | Digital Marketing & Blogging</title>
+<title>Samrat Upadhyay | Digital Marketing, Blogging & Lucknow</title>
 
 <meta name="description" content="Samrat Upadhyay पर Digital Marketing, SEO, Blogging, AI, Lucknow और Uttar Pradesh से जुड़ी उपयोगी जानकारी और articles पढ़ें।">
 
-<meta name="keywords" content="Samrat Upadhyay, Digital Marketing, Blogging, SEO, AI, Lucknow, Uttar Pradesh, Lucknow Tourist Places">
+<meta name="keywords" content="Samrat Upadhyay, Digital Marketing, SEO, Blogging, AI, Lucknow, Uttar Pradesh, Lucknow Tourist Places">
 
 <meta name="author" content="Samrat Upadhyay">
 
 <style>
 
-* {
-    box-sizing: border-box;
+*{
+    box-sizing:border-box;
 }
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f5f5f5;
-    color: #222;
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f5f7fa;
+    color:#222;
+    line-height:1.7;
 }
 
 /* HEADER */
 
-header {
-    background: #111;
-    color: white;
-    text-align: center;
-    padding: 45px 20px;
+header{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:45px 15px;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 38px;
+header h1{
+    margin:0;
+    font-size:38px;
 }
 
-header p {
-    font-size: 18px;
+header p{
+    margin:8px 0 0;
+    font-size:18px;
 }
 
 /* NAVIGATION */
 
-nav {
-    background: #d35400;
-    text-align: center;
-    padding: 13px 5px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+nav{
+    background:white;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 0 10px;
+nav a{
+    color:#111827;
+    text-decoration:none;
+    margin:0 12px;
+    font-weight:bold;
 }
 
-/* SECTIONS */
-
-section {
-    max-width: 900px;
-    margin: 25px auto;
-    padding: 25px;
-    background: white;
-    border-radius: 12px;
+nav a:hover{
+    text-decoration:underline;
 }
 
-h2 {
-    color: #d35400;
+/* CONTAINER */
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:25px 15px;
 }
 
-h3 {
-    color: #333;
+/* HERO */
+
+.hero{
+    background:white;
+    padding:35px 25px;
+    border-radius:14px;
+    text-align:center;
+    box-shadow:0 3px 15px rgba(0,0,0,0.08);
+    margin-bottom:30px;
 }
 
-.article {
-    line-height: 1.8;
-    font-size: 17px;
+.hero h2{
+    font-size:30px;
+    margin-top:0;
+    color:#111827;
 }
 
-.article p {
-    margin-bottom: 16px;
+.hero p{
+    font-size:17px;
 }
 
-/* INFO BOX */
+/* SECTION */
 
-.info-box {
-    background: #fff4e8;
-    border-left: 5px solid #d35400;
-    padding: 15px;
-    margin: 20px 0;
-    line-height: 1.8;
+.section-title{
+    text-align:center;
+    font-size:30px;
+    color:#111827;
+    margin:40px 0 25px;
+}
+
+/* ARTICLES */
+
+.articles{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 3px 15px rgba(0,0,0,0.08);
+}
+
+.card h3{
+    color:#b45309;
+    margin-top:0;
+    font-size:22px;
+}
+
+.card p{
+    color:#444;
+}
+
+.read-more{
+    display:inline-block;
+    background:#111827;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:6px;
+    margin-top:8px;
+}
+
+.read-more:hover{
+    opacity:0.85;
+}
+
+/* ABOUT */
+
+.about{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 3px 15px rgba(0,0,0,0.08);
+}
+
+/* CONTACT */
+
+.contact{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 3px 15px rgba(0,0,0,0.08);
+}
+
+.contact a{
+    color:#1d4ed8;
+    text-decoration:none;
+    font-weight:bold;
 }
 
 /* FOOTER */
 
-footer {
-    text-align: center;
-    background: #111;
-    color: white;
-    padding: 20px;
-    margin-top: 30px;
+footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:30px 15px;
+    margin-top:40px;
+}
+
+footer p{
+    margin:5px;
 }
 
 /* MOBILE */
 
-@media (max-width: 600px) {
+@media(max-width:700px){
 
-    header h1 {
-        font-size: 30px;
+    header h1{
+        font-size:30px;
     }
 
-    nav a {
-        display: inline-block;
-        margin: 5px 7px;
+    header p{
+        font-size:16px;
     }
 
-    section {
-        margin: 15px 10px;
-        padding: 18px;
+    nav a{
+        display:inline-block;
+        margin:5px 7px;
+        font-size:14px;
     }
 
-    .article {
-        font-size: 16px;
+    .articles{
+        grid-template-columns:1fr;
     }
+
+    .hero h2{
+        font-size:25px;
+    }
+
+    .section-title{
+        font-size:26px;
+    }
+
+    .card{
+        padding:20px;
+    }
+
 }
 
 </style>
+
 </head>
 
 <body>
 
 <!-- HEADER -->
 
-<header id="home">
+<header>
 
 <h1>Samrat Upadhyay</h1>
 
-<p>Digital Marketing & Blogging</p>
+<p>
+Digital Marketing | Blogging | SEO | AI | Lucknow
+</p>
 
 </header>
 
@@ -151,7 +247,7 @@ footer {
 
 <nav>
 
-<a href="#home">Home</a>
+<a href="index.html">Home</a>
 
 <a href="#articles">Articles</a>
 
@@ -162,504 +258,239 @@ footer {
 </nav>
 
 
-<!-- ARTICLES -->
+<div class="container">
 
-<section id="articles">
 
-<h2>📝 Latest Articles</h2>
+<!-- HERO -->
 
-<div class="article">
+<section class="hero">
+
+<h2>Samrat Upadhyay में आपका स्वागत है</h2>
 
 <p>
-Samrat Upadhyay पर Digital Marketing, Blogging, SEO, AI,
-Lucknow और Uttar Pradesh से जुड़ी उपयोगी जानकारी पढ़ें।
+यह वेबसाइट Digital Marketing, SEO, Blogging, AI,
+Lucknow और Uttar Pradesh से जुड़ी उपयोगी जानकारी
+और articles के लिए बनाई गई है।
 </p>
 
-</div>
+<p>
+नई जानकारी और उपयोगी articles पढ़ने के लिए
+हमारी वेबसाइट पर आते रहें।
+</p>
 
 </section>
+
+
+<!-- ARTICLES -->
+
+<h2 class="section-title" id="articles">
+Latest Articles
+</h2>
+
+
+<div class="articles">
 
 
 <!-- ARTICLE 1 -->
 
-<section>
-
-<h2>
-🔱 योगी आदित्यनाथ: सनातन संस्कृति और राष्ट्रसेवा के प्रहरी
-</h2>
+<div class="card">
 
 <h3>
-योगी आदित्यनाथ: हिंदुत्व, संस्कृति और राष्ट्रसेवा की एक पहचान
+योगी आदित्यनाथ: राजनीतिक सफर और सार्वजनिक जीवन
 </h3>
 
-<div class="article">
-
 <p>
-भारत केवल एक देश नहीं, बल्कि हजारों वर्षों की संस्कृति,
-परंपराओं और आध्यात्मिक विचारों की भूमि है। इसी सांस्कृतिक
-विरासत के प्रति सम्मान को आज के समय में हिंदुत्व की एक
-महत्वपूर्ण अभिव्यक्ति के रूप में देखा जाता है।
+योगी आदित्यनाथ के राजनीतिक सफर, सार्वजनिक जीवन
+और उत्तर प्रदेश की राजनीति में उनकी भूमिका के बारे में जानकारी।
 </p>
 
-<p>
-योगी आदित्यनाथ ने सार्वजनिक जीवन में भारतीय संस्कृति,
-सनातन परंपराओं और राष्ट्रहित को प्रमुखता देने की अपनी
-अलग पहचान बनाई है। उनके समर्थक उन्हें ऐसे नेता के रूप
-में देखते हैं जो अपनी सांस्कृतिक विचारधारा को स्पष्ट रूप
-से सामने रखते हैं और प्रशासन में अनुशासन तथा विकास पर
-जोर देते हैं।
-</p>
-
-<p>
-उत्तर प्रदेश जैसे विशाल राज्य में कानून-व्यवस्था, विकास,
-धार्मिक पर्यटन, बुनियादी सुविधाओं और निवेश जैसे विषयों
-पर उनकी सरकार की नीतियों ने व्यापक चर्चा पैदा की है।
-अयोध्या का विकास और धार्मिक पर्यटन को बढ़ावा देना भी
-इसी व्यापक सांस्कृतिक दृष्टिकोण का एक प्रमुख उदाहरण
-माना जाता है।
-</p>
-
-<p>
-हिंदुत्व का अर्थ केवल किसी धर्म तक सीमित करना उचित नहीं
-है। इसके व्यापक सांस्कृतिक अर्थ में यह भारतीय परंपरा,
-कर्तव्य, सत्य, सेवा, सह-अस्तित्व और अपनी जड़ों के प्रति
-सम्मान की भावना से भी जुड़ा हुआ है।
-</p>
-
-<p>
-योगी आदित्यनाथ के समर्थकों के लिए उनकी सबसे बड़ी विशेषता
-यही है कि वे अपनी विचारधारा को लेकर स्पष्ट दिखाई देते हैं।
-उनके लिए संस्कृति और राष्ट्रसेवा एक-दूसरे से जुड़े विषय हैं।
-</p>
-
-<p>
-आज के युवाओं के लिए सबसे महत्वपूर्ण संदेश यह होना चाहिए
-कि अपनी संस्कृति पर गर्व करने के साथ-साथ शिक्षा, रोजगार,
-तकनीक, कानून और विकास में भी आगे बढ़ा जाए।
-</p>
-
-<p>
-<b>
-“संस्कृति हमारी पहचान है, सेवा हमारा कर्तव्य है और राष्ट्र हमारा संकल्प है।”
-</b>
-</p>
-
-<p><b>— Samrat Upadhyay</b></p>
+<a class="read-more" href="yogi-adityanath.html">
+पूरा Article पढ़ें →
+</a>
 
 </div>
-
-</section>
 
 
 <!-- ARTICLE 2 -->
 
-<section>
+<div class="card">
 
-<h2>
-🏛️ उत्तर प्रदेश: विकास और विरासत की नई पहचान
-</h2>
-
-<div class="article">
+<h3>
+उत्तर प्रदेश: विकास और विरासत की नई पहचान
+</h3>
 
 <p>
-उत्तर प्रदेश केवल भारत का एक बड़ा राज्य नहीं, बल्कि
-हजारों वर्षों की संस्कृति, इतिहास, आध्यात्मिक परंपराओं
-और गौरवशाली विरासत की भूमि है।
+उत्तर प्रदेश के विकास, पर्यटन, बुनियादी ढांचे,
+विरासत और नई संभावनाओं के बारे में जानकारी।
 </p>
 
-<p>
-यहाँ अयोध्या, काशी, मथुरा, प्रयागराज और अनेक ऐतिहासिक
-एवं धार्मिक स्थल भारत की सांस्कृतिक पहचान को मजबूत बनाते हैं।
-</p>
-
-<p>
-आज उत्तर प्रदेश में विकास और विरासत को साथ लेकर आगे
-बढ़ने की सोच दिखाई देती है। आधुनिक सड़कें, बेहतर परिवहन,
-डिजिटल सुविधाएँ, निवेश और रोजगार के अवसरों के साथ-साथ
-ऐतिहासिक और धार्मिक स्थलों के विकास पर भी ध्यान दिया
-जा रहा है।
-</p>
-
-<p>
-अयोध्या का विकास इसका एक प्रमुख उदाहरण है। श्रीराम मंदिर
-के निर्माण के साथ शहर में पर्यटन, सुविधाओं और बुनियादी
-ढाँचे को विकसित करने के प्रयासों ने अयोध्या को देश-दुनिया
-के लोगों के लिए आकर्षण का केंद्र बनाया है।
-</p>
-
-<p>
-काशी, मथुरा, प्रयागराज और उत्तर प्रदेश के अन्य प्रमुख
-सांस्कृतिक स्थलों का विकास भी धार्मिक पर्यटन और स्थानीय
-अर्थव्यवस्था के लिए महत्वपूर्ण हो सकता है।
-</p>
-
-<p>
-विकास का अर्थ केवल बड़ी इमारतें और चौड़ी सड़कें नहीं है।
-वास्तविक विकास तब माना जाएगा जब युवाओं को रोजगार,
-किसानों को बेहतर अवसर, व्यापारियों को सुविधाएँ और आम
-नागरिकों को बेहतर शिक्षा, स्वास्थ्य तथा परिवहन मिले।
-</p>
-
-<p>
-उत्तर प्रदेश की सबसे बड़ी ताकत उसकी विरासत और उसकी
-विशाल युवा आबादी है। यदि आधुनिक तकनीक, शिक्षा और
-रोजगार को अपनी सांस्कृतिक जड़ों के साथ जोड़ा जाए,
-तो प्रदेश विकास की नई ऊँचाइयों तक पहुँच सकता है।
-</p>
-
-<p><b>“विरासत हमारी पहचान है और विकास हमारा भविष्य।”</b></p>
-
-<p><b>— Samrat Upadhyay</b></p>
+<a class="read-more" href="uttar-pradesh-vikas.html">
+पूरा Article पढ़ें →
+</a>
 
 </div>
-
-</section>
 
 
 <!-- ARTICLE 3 -->
 
-<section>
+<div class="card">
 
-<h2>
-🇮🇳 अटल बिहारी वाजपेयी: विचार, नेतृत्व और राष्ट्रसेवा की मिसाल
-</h2>
-
-<div class="article">
+<h3>
+अटल बिहारी वाजपेयी: विचार, नेतृत्व और राष्ट्रसेवा
+</h3>
 
 <p>
-अटल बिहारी वाजपेयी भारतीय राजनीति के उन नेताओं में गिने
-जाते हैं जिन्होंने अपने विचारों, प्रभावशाली वक्तृत्व और
-लोकतांत्रिक मूल्यों के प्रति प्रतिबद्धता से देश की राजनीति
-पर गहरी छाप छोड़ी।
+अटल बिहारी वाजपेयी के राजनीतिक जीवन,
+विचार, नेतृत्व और राष्ट्रसेवा के बारे में जानकारी।
 </p>
 
-<p>
-वे एक कुशल राजनेता होने के साथ-साथ प्रसिद्ध कवि और
-वक्ता भी थे।
-</p>
-
-<p>
-वाजपेयी जी का राजनीतिक जीवन लंबे समय तक राष्ट्रहित,
-लोकतांत्रिक संवाद और जनसेवा से जुड़ा रहा। उन्होंने विपक्ष
-में रहते हुए भी अपने विचारों को मजबूती से रखा और विभिन्न
-राजनीतिक परिस्थितियों में संवाद तथा सहमति की राजनीति
-को महत्व दिया।
-</p>
-
-<p>
-प्रधानमंत्री के रूप में उनके कार्यकाल के दौरान बुनियादी
-ढाँचे, सड़क संपर्क, दूरसंचार और आर्थिक नीतियों से जुड़े
-कई महत्वपूर्ण कदम उठाए गए।
-</p>
-
-<p>
-राष्ट्रीय राजमार्ग विकास और ग्रामीण सड़कों के विस्तार
-जैसे प्रयासों ने देश के परिवहन ढाँचे को मजबूत करने में
-योगदान दिया।
-</p>
-
-<p>
-अटल जी की पहचान केवल एक राजनेता के रूप में नहीं थी।
-उनकी कविताओं और भाषणों में देश, समाज, आशा और मानवीय
-संवेदनाओं की झलक दिखाई देती थी।
-</p>
-
-<p>
-उनका जीवन हमें यह संदेश देता है कि राजनीति में विचारों
-की मजबूती के साथ-साथ संवाद, धैर्य और लोकतांत्रिक
-मर्यादाओं का भी महत्व है।
-</p>
-
-<p>
-<b>
-“अटल जी का जीवन भारतीय लोकतंत्र में विचार और संवाद की शक्ति की एक महत्वपूर्ण मिसाल है।”
-</b>
-</p>
-
-<p><b>— Samrat Upadhyay</b></p>
+<a class="read-more" href="atal-bihari-vajpayee.html">
+पूरा Article पढ़ें →
+</a>
 
 </div>
-
-</section>
 
 
 <!-- ARTICLE 4 -->
 
-<section>
+<div class="card">
 
-<h2>
-🇮🇳 उत्तर प्रदेश की बदलती तस्वीर: विकास के साथ नई उम्मीदें
-</h2>
-
-<div class="article">
+<h3>
+उत्तर प्रदेश की बदलती तस्वीर: विकास के साथ नई उम्मीदें
+</h3>
 
 <p>
-उत्तर प्रदेश देश का सबसे अधिक आबादी वाला राज्य है और
-इसकी भूमिका भारत की राजनीति, अर्थव्यवस्था और सामाजिक
-जीवन में हमेशा महत्वपूर्ण रही है।
+उत्तर प्रदेश में बुनियादी ढांचे, पर्यटन,
+डिजिटल तकनीक और रोजगार से जुड़ी संभावनाओं की जानकारी।
 </p>
 
-<p>
-पिछले कुछ वर्षों में प्रदेश में सड़क, एक्सप्रेसवे, शहरों
-के विकास, धार्मिक पर्यटन और डिजिटल सेवाओं पर विशेष ध्यान
-देखने को मिला है।
-</p>
-
-<p>
-लखनऊ जैसे शहरों में आधुनिक सुविधाओं का विस्तार हुआ है।
-अयोध्या में धार्मिक पर्यटन बढ़ा है, जबकि प्रदेश के अलग-अलग
-जिलों में सड़क और कनेक्टिविटी से जुड़े कई काम चर्चा में रहते हैं।
-</p>
-
-<p>
-लेकिन विकास का असली मतलब केवल बड़ी परियोजनाएं बनाना
-नहीं है। आम आदमी के लिए रोजगार, अच्छी शिक्षा, बेहतर
-स्वास्थ्य सुविधाएं, किसानों की आय, छोटे व्यापारियों की
-मदद और युवाओं के लिए अवसर भी उतने ही महत्वपूर्ण हैं।
-</p>
-
-<p>
-उत्तर प्रदेश की युवा आबादी प्रदेश की सबसे बड़ी ताकत है।
-अगर युवाओं को सही शिक्षा, कौशल और रोजगार के अवसर मिलें,
-तो प्रदेश की अर्थव्यवस्था को और मजबूती मिल सकती है।
-</p>
-
-<h3>निष्कर्ष</h3>
-
-<p>
-उत्तर प्रदेश तेजी से बदल रहा है। इस बदलाव को स्थायी
-बनाने के लिए सरकार, प्रशासन और जनता—तीनों की भागीदारी
-जरूरी है।
-</p>
-
-<p>
-विकास तभी सार्थक होगा जब उसका लाभ आम नागरिक के जीवन
-में दिखाई दे।
-</p>
-
-<p><b>— Samrat Upadhyay</b></p>
+<a class="read-more" href="lucknow-development.html">
+पूरा Article पढ़ें →
+</a>
 
 </div>
-
-</section>
 
 
 <!-- ARTICLE 5 -->
 
-<section>
+<div class="card">
 
-<h2>
-📍 लखनऊ में घूमने की 10 बेहतरीन जगहें – एक दिन में कहाँ-कहाँ जाएँ?
-</h2>
-
-<div class="article">
+<h3>
+लखनऊ में घूमने की 10 बेहतरीन जगहें
+</h3>
 
 <p>
-<b>लखनऊ</b>, उत्तर प्रदेश की राजधानी, अपनी तहज़ीब, इतिहास,
-स्वादिष्ट खान-पान और खूबसूरत इमारतों के लिए प्रसिद्ध है।
-अगर आप पहली बार लखनऊ घूमने आ रहे हैं या अपने शहर को
-नए तरीके से देखना चाहते हैं, तो यहाँ कई ऐसी जगहें हैं
-जहाँ इतिहास और आधुनिकता दोनों देखने को मिलते हैं।
+लखनऊ के ऐतिहासिक स्थानों, बाजारों, पार्कों और
+घूमने की प्रमुख जगहों के बारे में जानकारी।
 </p>
 
-
-<h3>1. बड़ा इमामबाड़ा</h3>
-
-<p>
-लखनऊ की सबसे प्रसिद्ध ऐतिहासिक इमारतों में बड़ा इमामबाड़ा
-का नाम प्रमुखता से आता है। इसकी वास्तुकला और भूलभुलैया
-पर्यटकों को आकर्षित करती है।
-</p>
-
-
-<h3>2. छोटा इमामबाड़ा</h3>
-
-<p>
-बड़ा इमामबाड़ा देखने के बाद छोटा इमामबाड़ा भी देखा जा
-सकता है। इसकी सुंदर वास्तुकला और सजावट इसे लखनऊ की
-खास जगहों में शामिल करती है।
-</p>
-
-
-<h3>3. रूमी दरवाजा</h3>
-
-<p>
-रूमी दरवाजा लखनऊ की ऐतिहासिक पहचान का महत्वपूर्ण हिस्सा है।
-इसकी शानदार वास्तुकला इसे फोटो और sightseeing के लिए
-लोकप्रिय बनाती है।
-</p>
-
-
-<h3>4. ब्रिटिश रेजीडेंसी</h3>
-
-<p>
-इतिहास में रुचि रखने वालों के लिए ब्रिटिश रेजीडेंसी
-महत्वपूर्ण स्थान है। यह 1857 के स्वतंत्रता संग्राम से
-जुड़े इतिहास का हिस्सा रही है।
-</p>
-
-
-<h3>5. हजरतगंज</h3>
-
-<p>
-हजरतगंज लखनऊ का प्रसिद्ध shopping और घूमने का इलाका है।
-यहाँ बाजार, restaurants और शहर की पुरानी-नई संस्कृति
-का मिश्रण देखने को मिलता है।
-</p>
-
-
-<h3>6. लखनऊ जू</h3>
-
-<p>
-परिवार और बच्चों के साथ घूमने के लिए लखनऊ चिड़ियाघर
-एक अच्छा विकल्प है। यहाँ अलग-अलग प्रकार के वन्यजीव
-और पक्षी देखे जा सकते हैं।
-</p>
-
-
-<h3>7. अंबेडकर मेमोरियल पार्क</h3>
-
-<p>
-विशाल परिसर और आकर्षक वास्तुकला के कारण यह लखनऊ की
-प्रमुख घूमने वाली जगहों में शामिल है।
-</p>
-
-
-<h3>8. जनेश्वर मिश्र पार्क</h3>
-
-<p>
-हरियाली और खुले वातावरण में समय बिताने के लिए जनेश्वर
-मिश्र पार्क अच्छा विकल्प है। सुबह या शाम की walk के
-लिए भी यह लोकप्रिय है।
-</p>
-
-
-<h3>9. यूपी दर्शन पार्क</h3>
-
-<p>
-यूपी दर्शन पार्क में उत्तर प्रदेश के अलग-अलग प्रसिद्ध
-स्थलों की प्रतिकृतियाँ देखने को मिलती हैं।
-</p>
-
-
-<h3>10. अमीनाबाद</h3>
-
-<p>
-लखनऊ की पुरानी गलियों और बाजारों का अनुभव लेना हो तो
-अमीनाबाद जरूर जाएँ। यहाँ shopping के साथ लखनवी खान-पान
-का आनंद भी लिया जा सकता है।
-</p>
-
-
-<h3>🍽️ लखनऊ आएँ तो खाना न भूलें</h3>
-
-<p>
-लखनऊ घूमने का मजा यहाँ के खाने के बिना अधूरा माना जाता है।
-कबाब, बिरयानी, चाट, कुलचा-निहारी और मिठाइयाँ यहाँ के
-लोकप्रिय food options में शामिल हैं।
-</p>
-
-
-<div class="info-box">
-
-<b>🗺️ एक दिन का आसान Lucknow Tour Plan</b>
-
-<br><br>
-
-सुबह: बड़ा इमामबाड़ा और रूमी दरवाजा
-
-<br>
-
-दोपहर: छोटा इमामबाड़ा और ब्रिटिश रेजीडेंसी
-
-<br>
-
-शाम: हजरतगंज या जनेश्वर मिश्र पार्क
+<a class="read-more" href="lucknow-tourist-places.html">
+पूरा Article पढ़ें →
+</a>
 
 </div>
 
 
-<h3>निष्कर्ष</h3>
+<!-- DIGITAL MARKETING -->
+
+<div class="card">
+
+<h3>
+Digital Marketing और Blogging
+</h3>
 
 <p>
-लखनऊ सिर्फ उत्तर प्रदेश की राजधानी नहीं है, बल्कि यह
-इतिहास, संस्कृति, तहज़ीब, बाजार और खान-पान का खूबसूरत
-संगम है।
+Digital Marketing, SEO, Blogging और AI से जुड़ी
+नई जानकारी जल्द ही यहां प्रकाशित की जाएगी।
 </p>
 
-<p>
-अगर आप लखनऊ घूमने का प्लान बना रहे हैं, तो इन जगहों
-को अपनी list में जरूर शामिल करें।
-</p>
-
-<p>
-<b>
-आपको लखनऊ की कौन-सी जगह सबसे ज्यादा पसंद है?
-Comment करके जरूर बताइए।
-</b>
-</p>
-
-<p><b>— Samrat Upadhyay</b></p>
+<a class="read-more" href="#contact">
+हमसे जुड़ें →
+</a>
 
 </div>
 
-</section>
+
+</div>
 
 
 <!-- ABOUT -->
 
-<section id="about">
+<h2 class="section-title" id="about">
+About Samrat Upadhyay
+</h2>
 
-<h2>👤 About Samrat Upadhyay</h2>
-
-<div class="article">
+<section class="about">
 
 <p>
-Samrat Upadhyay एक Digital Marketing और Blogging platform
-है, जहाँ Digital Marketing, SEO, Social Media, AI, Blogging,
-Lucknow और उत्तर प्रदेश से जुड़े उपयोगी लेख साझा किए जाते हैं।
+नमस्ते! मेरा नाम <strong>Samrat Upadhyay</strong> है।
+मैं Digital Marketing, Blogging, SEO और AI जैसे
+Digital Skills के बारे में सीखने और उपयोगी जानकारी
+लोगों तक पहुंचाने का प्रयास करता हूं।
 </p>
 
 <p>
-हमारा उद्देश्य सरल भाषा में उपयोगी और original जानकारी
-उपलब्ध कराना है।
+इस वेबसाइट पर आपको Lucknow, Uttar Pradesh,
+Digital Marketing, Blogging, SEO, AI और
+अन्य उपयोगी विषयों से जुड़े articles मिलेंगे।
 </p>
 
-</div>
+<p>
+हमारा उद्देश्य सरल भाषा में उपयोगी और जानकारीपूर्ण
+content उपलब्ध कराना है।
+</p>
 
 </section>
 
 
 <!-- CONTACT -->
 
-<section id="contact">
+<h2 class="section-title" id="contact">
+Contact
+</h2>
 
-<h2>📞 Contact</h2>
-
-<div class="article">
-
-<p><b>Name:</b> Samrat Upadhyay</p>
+<section class="contact">
 
 <p>
-<b>Email:</b>
+अगर आप हमसे संपर्क करना चाहते हैं तो नीचे दिए गए
+email या WhatsApp के माध्यम से संपर्क कर सकते हैं।
+</p>
+
+<p>
+<strong>Email:</strong>
+<a href="mailto:vivekupadhyayubisl@gmail.com">
 vivekupadhyayubisl@gmail.com
+</a>
 </p>
 
 <p>
-<b>WhatsApp:</b>
-9415632923
+<strong>WhatsApp:</strong>
+<a href="https://wa.me/919415632923">
++91 9415632923
+</a>
 </p>
-
-</div>
 
 </section>
+
+
+</div>
 
 
 <!-- FOOTER -->
 
 <footer>
 
-© 2026 Samrat Upadhyay | Digital Marketing & Blogging
+<p>
+<strong>Samrat Upadhyay</strong>
+</p>
+
+<p>
+Digital Marketing | Blogging | SEO | AI
+</p>
+
+<p>
+© 2026 Samrat Upadhyay. All Rights Reserved.
+</p>
 
 </footer>
 
